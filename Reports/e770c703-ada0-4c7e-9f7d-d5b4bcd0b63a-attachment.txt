@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="JupiterOne Login" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+    </style>
+    <title>JupiterOne Login</title>
+    <script type="module" crossorigin src="/static/157/assets/index.8a1fef8e.js"></script>
+    <link rel="modulepreload" href="/static/157/assets/vendor.1329b13d.js">
+    <link rel="stylesheet" href="/static/157/assets/index.99e569ed.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // This is needed for vite to run local.
+      const isLocalHost = window.location.host.includes('localhost');
+      if (window.global === undefined) window.global = window;
+      window.buildId = '157';
+      window.defaultPublicClientId = isLocalHost
+        ? '7ada0h8mn6u7ep9aefueul2qbc'
+        : '7ada0h8mn6u7ep9aefueul2qbc';
+      window.appBaseUrl = 'https://apps.dev.jupiterone.io';
+      window.defaultUserPoolId = isLocalHost
+        ? 'us-east-1_KzFbFevHz'
+        : 'us-east-1_KzFbFevHz';
+    </script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- Start of HubSpot Embed Code -->
+    <script
+      type="text/javascript"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js.hs-scripts.com/8047501.js"
+    ></script>
+    <!-- End of HubSpot Embed Code -->
+  </body>
+</html>
+
+200
